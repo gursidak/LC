@@ -596,8 +596,11 @@ nav.navbar .navbar-toggler {
 }
 
 .logo img{
-	width:50px
+	width:145px !important ;
 }
+
+
+
 
 nav.fixed-top .navbar-toggler span {
 	color: #111;
@@ -1720,3 +1723,25 @@ nav.fixed-top .nav-item .nav-link:before {
 	z-index: -1;
 }
 
+
+/* MY STYLES */
+
+.pelum-btn{
+	border-radius: 8px;
+} 
+
+@media screen and (min-width: 768px) {
+	.logo img {
+	  width: 210px !important;
+	}
+  }
+
+
+/* @media screen and (min-width: 480px) {
+	.pelum-features-area {
+	  display: block !important;
+	}
+	.pelum-choose-area{
+		display: none;
+	}
+  } */
