@@ -202,7 +202,7 @@ li {
 
 .pelum-btn {
 	background-color: #6c0a40 !important;
-	border-radius: 2px;
+	border-radius: 6px;
 	display: inline-block;
 	padding: 10px 35px;
 	text-transform: uppercase;
@@ -1729,19 +1729,34 @@ nav.fixed-top .nav-item .nav-link:before {
 .pelum-btn{
 	border-radius: 8px;
 } 
-
+/* 
 @media screen and (min-width: 768px) {
 	.logo img {
-	  width: 210px !important;
-	}
-  }
-
-
-/* @media screen and (min-width: 480px) {
-	.pelum-features-area {
-	  display: block !important;
-	}
-	.pelum-choose-area{
-		display: none;
+	  width: 180px !important;
 	}
   } */
+
+
+  @media screen and (max-width: 450px ) {
+
+  #headertextbox-paragraph{
+	  width: 58%;
+	  font-size:14px;
+	  line-height: 1.2;
+  }
+
+  #headertextbox-heading{
+
+		width: 50% !important;
+		font-weight: 500;
+		letter-spacing: 1.3x;
+		font-size: 26px;
+		line-height: 1.2;
+		margin-bottom: 13px;
+	}
+
+
+}
+
+
+}
