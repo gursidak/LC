@@ -993,7 +993,7 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-choose-area {
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 .choose-left ul li.choose-box {
@@ -1148,7 +1148,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .single-choose-item {
 	background: #F8F8FF none repeat scroll 0 0;
-	padding: 50px;
+	padding: 0px 0px;
 	text-align: center;
 	border-radius: 10px;
 }
@@ -1250,7 +1250,7 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-faq-area {
-	padding: 100px 0 0;
+	padding: 50px 0 0;
 }
 
 .single_faq_accordian {
@@ -1356,7 +1356,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .pelum-testimonial-area {
 	background: url(../img/shape-3.png) no-repeat scroll top right/contain;
-	padding: 50px 0
+	padding: 20px 0px !important;
 }
 
 .single-testimonial {
@@ -1487,7 +1487,7 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-contact-area {
-	padding: 100px 0;
+	padding: 20px 0;
 	background-image: url(../img/shape-2.png);
 	background-position: left;
 	background-repeat: no-repeat;
@@ -1768,3 +1768,6 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 
+.about-right.wow.fadeInRight {
+    padding-left: 13px;
+}
